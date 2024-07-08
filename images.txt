@@ -1,15 +1,15 @@
-nginx:latest
-portainer/portainer-ce:latest
-6053537/portainer-ce
-python:3.12
-redis
-mariadb
-mysql
-chishin/nginx-proxy-manager-zh
-tiangolo/uvicorn-gunicorn:python3.11
-louislam/uptime-kuma:1
+--platform=linux/arm64 nginx:latest
+--platform=linux/arm64 portainer/portainer-ce:latest
+--platform=linux/arm64 6053537/portainer-ce
+--platform=linux/arm64 python:3.12
+--platform=linux/arm64 redis
+--platform=linux/arm64 mariadb
+--platform=linux/arm64 mysql
+--platform=linux/arm64 chishin/nginx-proxy-manager-zh
+--platform=linux/arm64 tiangolo/uvicorn-gunicorn:python3.11
+--platform=linux/arm64 louislam/uptime-kuma:1
 #支持私库
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 #xhofe/alist:latest
 #支持指定架构
---platform=linux/arm64v8 xiaoyaliu/alist
+--platform=linux/arm64 xiaoyaliu/alist
