@@ -2,7 +2,7 @@
 --platform=linux/arm64 portainer/portainer-ce:latest
 --platform=linux/arm64 6053537/portainer-ce
 --platform=linux/arm64 python:3.12
---platform=linux/arm64 redis:apline
+--platform=linux/arm64 redis
 --platform=linux/arm64 mariadb
 --platform=linux/arm64 mysql
 --platform=linux/arm64 chishin/nginx-proxy-manager-zh
