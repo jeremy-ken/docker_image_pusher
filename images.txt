@@ -8,8 +8,9 @@
 --platform=linux/arm64 chishin/nginx-proxy-manager-zh
 --platform=linux/arm64 tiangolo/uvicorn-gunicorn:python3.11
 --platform=linux/arm64 louislam/uptime-kuma:1
+--platform=linux/arm64 gitea/gitea:latest
 #支持私库
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 #xhofe/alist:latest
 #支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
+# --platform=linux/arm64 xiaoyaliu/alist
