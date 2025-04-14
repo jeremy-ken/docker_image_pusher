@@ -4,7 +4,7 @@ python:3.12
 
 #支持私库
 unifreq/openwrt-aarch64:latest
-luoyuu77/openwrt --platform=linux/arm64
+#luoyuu77/openwrt --platform=linux/arm64
 
 
 redis --platform=linux/arm64
