@@ -2,14 +2,15 @@ nginx
 redis
 python:3.12
 
-
-reids --platform=linux/arm64
-nginx --platform=linux/arm64
-python:3.12 --platform=linux/arm64
-
 #支持私库
 unifreq/openwrt-aarch64:latest
 luoyuu77/openwrt:arm64
+
+
+redis --platform=linux/arm64
+nginx --platform=linux/arm64
+python:3.12 --platform=linux/arm64
+
 
 
 #支持指定架构
