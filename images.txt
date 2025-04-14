@@ -4,12 +4,12 @@ python:3.12
 
 #支持私库
 unifreq/openwrt-aarch64:latest
-#luoyuu77/openwrt --platform=linux/arm64
+#--platform=linux/arm64
 
 
-redis --platform=linux/arm64
-nginx --platform=linux/arm64
-python:3.12 --platform=linux/arm64
+--platform=linux/arm64 redis 
+--platform=linux/arm64 nginx 
+--platform=linux/arm64 python:3.12 
 
 
 
