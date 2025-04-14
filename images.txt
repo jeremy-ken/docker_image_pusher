@@ -9,7 +9,7 @@ python:3.12 --platform=linux/arm64
 #支持私库
 
 unifreq/openwrt-aarch64:latest
-
+luoyuu77/openwrt:arm64
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
 
