@@ -2,6 +2,10 @@ nginx
 redis
 python:3.12-alpine
 
+
+reids --platform=linux/arm64
+nginx --platform=linux/arm64
+python:3.12 --platform=linux/arm64
 #支持私库
 
 unifreq/openwrt-aarch64:latest
