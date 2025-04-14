@@ -1,6 +1,6 @@
 nginx
 redis
-python:3.12-alpine
+python:3.12
 
 
 reids --platform=linux/arm64
