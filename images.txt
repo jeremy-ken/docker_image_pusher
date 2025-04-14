@@ -1,6 +1,7 @@
 nginx
 redis
 python:3.12-slim
+python:3.12-alpine
 
 #支持私库
 unifreq/openwrt-aarch64:latest
