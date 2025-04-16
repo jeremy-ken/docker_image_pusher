@@ -1,9 +1,9 @@
 nginx
 redis
-redis-slim
+
 python:3.12
 python:3.12-slim
-python:3.12-alpine
+
 node:18-alpine
 
 #支持私库
