@@ -1,4 +1,5 @@
 nginx
+nginx:apline
 redis
 
 python:3.12
