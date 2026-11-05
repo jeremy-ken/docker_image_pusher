@@ -1,6 +1,6 @@
 nginx
 #nginx:stable-alpine
-nginx:apline
+#nginx:apline
 #redis
 redis:7.4
 
